@@ -3,5 +3,5 @@ class User{
   private String name;
   
   private History browsingHistory;
-  private List<Product> recommendations;
+  private SortedSet<Product> recommendations;
 }
